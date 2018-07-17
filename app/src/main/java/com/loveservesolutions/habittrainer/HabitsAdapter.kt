@@ -12,7 +12,7 @@ class HabitsAdapter(val habits:List<Habit>):RecyclerView.Adapter<HabitsAdapter.H
 
     //Create new view holder
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HabitViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.single_card, parent)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.single_card, parent,false)//java.lang.IllegalStateException: The specified child already has a parent. You must call removeView() on the child's parent first.--false-attachToRoot was passed to resolve this fatal exception
         return HabitViewHolder(view)
     }
 
