@@ -5,4 +5,8 @@
     <string name="habitDescription">A refreshing drink</string>
     <string name="description">A refreshing glass of water gets you hyderate</string>
     <string name="habitTitle">Begin New Habit...</string>
+    <string name="descriptionHint">An apple a day keeps doctor away</string>
+    <string name="titleHint">Eat an apple..</string>
+    <string name="choose_image">Choose Image...</string>
+    <string name="selected_image">Selected Image...</string>
 </resources>
